@@ -9,4 +9,4 @@ ENV DB_TYPE=sqlite
 
 EXPOSE 5678
 
-CMD ["n8n"]
+CMD ["n8n", "start"]
