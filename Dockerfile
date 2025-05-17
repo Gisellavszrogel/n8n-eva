@@ -10,5 +10,5 @@ ENV DB_TYPE=sqlite
 
 EXPOSE 5678
 
+ENTRYPOINT ["tini", "--"]
 CMD ["n8n"]
-# Force redeploy - May 2025
