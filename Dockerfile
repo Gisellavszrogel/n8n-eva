@@ -1,4 +1,3 @@
-# tiny comment to force rebuild
 FROM n8nio/n8n
 
 ENV N8N_HOST=0.0.0.0
